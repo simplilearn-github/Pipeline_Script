@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+	agent {label 'windows10'}
     stages {
 	
 	stage('Non-Parallel Stage') {
